@@ -56,4 +56,3 @@ if __name__ == "__main__":
     url = "http://127.0.0.1:5001/"
     Timer(1, open_edge, args=(url,)).start()
     app.run(host="127.0.0.1", port=5001)
-
